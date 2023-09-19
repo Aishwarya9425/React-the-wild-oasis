@@ -53,17 +53,13 @@ const StyledNavLink = styled(NavLink)`
   }
 `;
 
-// NavLink to - doesnt do hard refresh
-//style(NavLink)
-//the side bar contains - dashboard, bookinds, cabins, users, settings
 function MainNav() {
   return (
     <nav>
       <NavList>
         <li>
           <StyledNavLink to="/dashboard">
-          {/* react icons */}
-            <HiOutlineHome /> 
+            <HiOutlineHome />
             <span>Home</span>
           </StyledNavLink>
         </li>
