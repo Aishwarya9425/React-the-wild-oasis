@@ -15,12 +15,15 @@ const Main = styled.main`
   padding: 4rem 4.8rem 6.4rem;
 `;
 
+// layout of the applicatin -- header, side bar and the main 
+
 function AppLayout() {
   return (
     <StyledAppLayout>
       <Header />
       <Sidebar />
       <Main>
+      {/* rendering the selected child comp in the main*/}
         <Outlet />
       </Main>
     </StyledAppLayout>

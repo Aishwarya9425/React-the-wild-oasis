@@ -5,7 +5,7 @@ function Dashboard() {
   return (
     <Row type="horizontal">
       <Heading as="h1">Dashboard</Heading>
-      <p>TEST</p>
+      <p>Index route!</p>
     </Row>
   );
 }
