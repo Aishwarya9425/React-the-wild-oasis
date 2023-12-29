@@ -1,6 +1,6 @@
 Login with
 Email = aish@example.com
-Password = SNip12$$
+Password = aish123
 
 # React + Vite
 
